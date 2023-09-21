@@ -5,9 +5,17 @@ import random
 
 
 # タイトルを設定
-st.title('おみくじアプリ')
+st.title('ラッキーカラーアプリ')
 
-if st.button("おみくじを引く"):
-   results=["メガビッグ","ロト7","ハロウィンジャンボ","10億","大吉","中吉","小吉","吉","凶","大凶"]
+if st.button("今日のラッキーカラー"):
+   results=["グレー","黒","白","茶","紫","ピンク","オレンジ","水色","緑","黄","青","赤"]
    result=random.choice(results)
    st.write(f"結果:{result}")
+
+if st.button("ラッキーアイテム"):
+   items=["バッグ","靴下","靴","ブレスレット","ネックレス","ピアス","ヘアアクセサリー","リング"]
+   item=random.choice(items)
+   st.write(f"結果:{item}")
+   
+
+
