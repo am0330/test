@@ -12,7 +12,7 @@ if st.button("今日のラッキーカラー"):
    result=random.choice(results)
    st.write(f"結果:{result}")
 
-if st.button("ラッキーアイテム"):
+if st.button("今日のラッキーアイテム"):
    items=["バッグ","靴下","靴","ブレスレット","ネックレス","ピアス","ヘアアクセサリー","リング"]
    item=random.choice(items)
    st.write(f"結果:{item}")
